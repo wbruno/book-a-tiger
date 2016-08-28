@@ -1,0 +1,20 @@
+{
+  "name": "book-a-tiger",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/tigerMatcher.js",
+  "scripts": {
+    "start": "export DEBUG=bat:* && gulp get-matches",
+    "test": "export DEBUG=bat:* && node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha test/*"
+  },
+  "author": "William B. <wbrunom@gmail.com> (http://wbruno.com.br)",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "debug": "^2.2.0",
+    "gulp": "^3.9.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "pg-native": "^1.10.0"
+  }
+}

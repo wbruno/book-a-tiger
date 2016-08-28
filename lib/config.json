@@ -1,0 +1,18 @@
+{
+  "postgres" : {
+    "user": "postgres",
+    "database": "book_a_tiger",
+    "password": "123",
+    "port": 5432,
+    "max": 10,
+    "idleTimeoutMillis": 30000
+  },
+  "distances": {
+    "de": 10,
+    "at": 20,
+    "ch": 17.5,
+    "nl": 9,
+    "br": 5,
+    "default": 11
+  }
+}
